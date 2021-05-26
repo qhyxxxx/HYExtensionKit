@@ -12,14 +12,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		429535DD2DA94AC19964350A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* HYExtensionKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYExtensionKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6D49AA7E6D05E81CE6C42DDD /* Pods-HYExtensionKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYExtensionKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HYExtensionKit_Tests/Pods-HYExtensionKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		802977A2CFAD1F252297B450 /* HYExtensionKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HYExtensionKit.podspec; path = ../HYExtensionKit.podspec; sourceTree = "<group>"; };
+		802977A2CFAD1F252297B450 /* HYExtensionKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HYExtensionKit.podspec; path = ../HYExtensionKit.podspec; sourceTree = "<group>"; };
 		8685A3A46337B95C5223C9A5 /* Pods-HYExtensionKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYExtensionKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-HYExtensionKit_Tests/Pods-HYExtensionKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C85BB1A8DA4CC8B8D03D9862 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		95065C27265E635500D1E510 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		95065C28265E636700D1E510 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FDF87B80F3E27CAF4326814A /* Pods_HYExtensionKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYExtensionKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -75,8 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				802977A2CFAD1F252297B450 /* HYExtensionKit.podspec */,
-				C85BB1A8DA4CC8B8D03D9862 /* README.md */,
-				429535DD2DA94AC19964350A /* LICENSE */,
+				95065C28265E636700D1E510 /* README.md */,
+				95065C27265E635500D1E510 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -87,7 +87,6 @@
 				6D49AA7E6D05E81CE6C42DDD /* Pods-HYExtensionKit_Tests.debug.xcconfig */,
 				8685A3A46337B95C5223C9A5 /* Pods-HYExtensionKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
