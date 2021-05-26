@@ -131,18 +131,10 @@
 		95065C1C265E58E200D1E510 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				95065C26265E5B2600D1E510 /* Date */,
+				95065C23265E592200D1E510 /* Date+Custom.swift */,
 			);
 			name = Classes;
 			path = HYExtensionKit/Classes;
-			sourceTree = "<group>";
-		};
-		95065C26265E5B2600D1E510 /* Date */ = {
-			isa = PBXGroup;
-			children = (
-				95065C23265E592200D1E510 /* Date+Custom.swift */,
-			);
-			path = Date;
 			sourceTree = "<group>";
 		};
 		B788471DF69617157FB92B2CA1E2B5A1 /* Development Pods */ = {
