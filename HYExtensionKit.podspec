@@ -1,32 +1,36 @@
 #
-#  Be sure to run `pod spec lint HYExtensionKit.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
+# Be sure to run `pod lib lint HYExtensionKit.podspec' to ensure this is a
+# valid spec before submitting.
 #
-#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
+  s.name             = 'HYExtensionKit'
+  s.version          = '0.0.1'
+  s.summary          = 'common use extension'
 
-  spec.name         = "HYExtensionKit"
-  spec.version      = "0.0.1"
-  spec.summary      = "iOS开发常用拓展总结"
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
 
-  spec.description  = <<-DESC
-			*the first pod for test
-			*much extension
-                   DESC
-  spec.author       = { 'qhyxxxx' => 'qihengyi@cuapp.me' }
-  spec.homepage     = "https://github.com/qhyxxxx/HYExtensionKit"
-  
-  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-  
-  spec.license      = "MIT"
+  s.homepage         = 'https://github.com/qhyxxxx/HYExtensionKit'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'qhyxxxx' => 'qihengyi@cuapp.me' }
+  s.source           = { :git => 'https://github.com/qhyxxxx/HYExtensionKit.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  spec.platform     = :ios, "11.0"
-  
-  spec.source       = { :git => "https://github.com/qhyxxxx/HYExtensionKit.git", :tag => "#{spec.version}" }
-  
-  spec.source_files  = "Classes/*.{h,m}"
+  s.ios.deployment_target = '9.0'
 
+  s.source_files = 'HYExtensionKit/Classes/**/*'
+  
+  # s.resource_bundles = {
+  #   'HYExtensionKit' => ['HYExtensionKit/Assets/*.png']
+  # }
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end

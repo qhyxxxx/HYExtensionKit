@@ -1,0 +1,16 @@
+PODS:
+  - HYExtensionKit (0.1.0)
+
+DEPENDENCIES:
+  - HYExtensionKit (from `../`)
+
+EXTERNAL SOURCES:
+  HYExtensionKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYExtensionKit: cbb0af3a3c4204257ea97fac2454424c6802a6ca
+
+PODFILE CHECKSUM: ed36aee4934f66cc6ccb760dcd1e02db238d5ae8
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,22 @@
+{
+  "name": "HYExtensionKit",
+  "version": "0.1.0",
+  "summary": "A short description of HYExtensionKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qhyxxxx/HYExtensionKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qhyxxxx": "qihengyi@cuapp.me"
+  },
+  "source": {
+    "git": "https://github.com/qhyxxxx/HYExtensionKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HYExtensionKit/Classes/**/*"
+}

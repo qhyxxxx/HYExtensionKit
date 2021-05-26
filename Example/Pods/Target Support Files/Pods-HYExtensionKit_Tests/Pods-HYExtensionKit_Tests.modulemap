@@ -1,0 +1,6 @@
+framework module Pods_HYExtensionKit_Tests {
+  umbrella header "Pods-HYExtensionKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

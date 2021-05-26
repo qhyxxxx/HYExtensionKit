@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HYExtensionKit_Tests' do
+  pod 'HYExtensionKit', :path => '../'
+  
+  
+end

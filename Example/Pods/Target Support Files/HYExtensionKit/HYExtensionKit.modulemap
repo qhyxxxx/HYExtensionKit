@@ -1,0 +1,6 @@
+framework module HYExtensionKit {
+  umbrella header "HYExtensionKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
